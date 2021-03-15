@@ -1,0 +1,71 @@
+/*estilos para html - aparte de bootstrap*/
+header{
+    background-color: #33709d ;
+    height: 86px;
+    position:relative; z-index:1;
+    padding-top: 10px; 
+}
+header img{
+    padding-left: 40px;
+    height: 90px;
+    position:absolute; z-index:2;}
+
+footer{
+    background-color: deepskyblue;
+}
+
+nav{
+    
+    background-color: #33709d;
+}
+button{
+    width:80px ;
+}
+/*lista desplegable con hover- acordeon*/
+ul.acorh,
+ul.acorh * {
+margin: 0;
+padding: 0;
+border: 0;
+}
+ul.acorh {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 15px;
+}
+ul.acorh li {
+list-style: none;
+}
+ul.acorh li a {
+display: block;
+padding: 10px 10px 10px 20px;
+color: black;
+text-decoration: none;
+box-sizing: border-box;
+}
+.ind {
+ font-weight: bold;
+}
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.acorh li li a {
+padding: 10px 10px 10px 40px;
+font-size: 16px;
+border: 0;
+box-sizing: border-box;
+}
+ul.acorc li li:last-child a {
+border-bottom: 0;
+}
+ul.acorh li:target ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+    }
