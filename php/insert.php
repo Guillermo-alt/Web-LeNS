@@ -7,7 +7,11 @@ if (!$conn) {
  
 echo "Connected successfully";
 
-$sql = "INSERT INTO Comentarios (Nombre, Correo, Asunto) VALUES ('Test', 'Testing', 'Testing@tesing.com')";
+$nombre ="sad";
+$email = $_POST['email'];
+$asunto = $_POST['asunto'];
+
+$sql = "INSERT INTO Comentarios (Nombre, Correo, Asunto) VALUES ('$nombre', '$email', '$asunto')";
 if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
 } else {
@@ -15,3 +19,7 @@ if (mysqli_query($conn, $sql)) {
 }
 mysqli_close($conn);
 ?>
+1
+<script> alert("Mensaje Registrado");
+location.href ="/Web-LeNS/contacto.html";
+</script>

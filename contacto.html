@@ -60,20 +60,22 @@
             <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa corrupti vero fugit sit placeat, blanditiis cumque dolorem, quas quisquam adipisci culpa. Aut illum excepturi veritatis consectetur voluptatem doloribus sapiente quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, repellat aliquam ipsum animi ipsa veniam doloremque fugit eos amet ad inventore dolorem cum natus ratione id adipisci quos eveniet repudiandae.</p>
             </div>
+
+
             <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                <form action="/php/insert.php" method="POST">
+                <form action="/Web-LeNS/php/insert.php" method="POST">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                      <input type="email" name="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <input type="text" name="nombre" class="form-control" id="exampleInputPassword1" required>
                     
                     </div>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Email</label>
-                      <input type="password" name="email" class="form-control" id="exampleInputPassword1">
+                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
-                        <textarea class="form-control" name="asunto" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="asunto" id="exampleFormControlTextarea1" rows="3" required></textarea>
                     </div>
                 
                     <button type="submit" class="btn btn-primary">Enviar</button>
