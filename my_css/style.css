@@ -21,6 +21,22 @@ nav{
 button{
     width:80px ;
 }
+.b1{
+    background-color: orange;
+    width: 200px;
+}
+.b1:hover{
+    background-color: rgb(228, 149, 4);
+    width: 200px;
+}
+.contenido1{
+    text-align: justify;
+}
+section{
+    overflow-y:scroll;
+    height:700PX;
+}
+
 /*lista desplegable con hover- acordeon*/
 ul.acorh,
 ul.acorh * {

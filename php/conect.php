@@ -1,4 +1,4 @@
-<?php
+<?php /*concta con base de datos local y no del host web - ya se cambio el del hosting*/
 $servername = "localhost";
 $database = "prueba";
 $username = "root";
