@@ -1,17 +1,13 @@
 /*estilos para html - aparte de bootstrap*/
+
 header{
-    background-color: #33709d ;
-    height: 86px;
-    position:relative; z-index:1;
-    padding-top: 10px; 
+    background-color: white ;
+    height: 130px;
+    padding: 20px 10px; 
 }
 header img{
     padding-left: 40px;
-    height: 90px;
-    position:absolute; z-index:2;}
-
-footer{
-    background-color: deepskyblue;
+    height: 75px;
 }
 
 nav{
@@ -35,7 +31,31 @@ button{
 section{
     overflow-y:scroll;
     height:700PX;
+    
 }
+.casos{/*estilo para casos de estudio*/
+    
+        border: 2px solid #33709d;
+        border-radius: 10px;
+        height: 100px;
+}
+.casos:hover {
+    background: #33709d;
+  }
+
+
+  /*ajuste de contenido home- - posicion y animacion*/
+
+  .confeti{
+      position: absolute;
+      z-index: 0;
+  }
+
+  .logo_animado {  
+      padding: 25% 30%;
+    animation:fadeInDown; /*referencia al keyframe*/
+    animation-duration: 3s; /*duracion*/
+  }
 
 /*lista desplegable con hover- acordeon*/
 ul.acorh,
@@ -47,13 +67,18 @@ border: 0;
 ul.acorh {
 margin: 10px auto;
 padding: 0;
-list-style: none;
 width: 100%;
 font-size: 15px;
 }
-ul.acorh li {
-list-style: none;
+.acorh li {
+    padding-left: 5px;
+    list-style-image: url("/img/Bullet3.png");
 }
+.ind li{
+
+    list-style-image: url("/img/Bullet2.png");
+}
+
 ul.acorh li a {
 display: block;
 padding: 10px 10px 10px 20px;
