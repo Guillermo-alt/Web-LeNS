@@ -57,56 +57,46 @@ section{
     animation-duration: 3s; /*duracion*/
   }
 
+
 /*lista desplegable con hover- acordeon*/
-ul.acorh,
-ul.acorh * {
-margin: 0;
-padding: 0;
-border: 0;
-}
+
+
 ul.acorh {
 margin: 10px auto;
-padding: 0;
+margin-left: 20px;
 width: 100%;
 font-size: 15px;
+list-style-image: url("/img/Bullet2.png");
 }
-.acorh li {
-    padding-left: 5px;
-    list-style-image: url("/img/Bullet3.png");
+.sin_list{
+    list-style-image: url("/img/Bullet1.png");
 }
-.ind li{
-
-    list-style-image: url("/img/Bullet2.png");
+.acorh li a:hover{
+    background-color: orange;
+    border-radius: 20px;
 }
-
 ul.acorh li a {
 display: block;
-padding: 10px 10px 10px 20px;
+padding: 10px 10px 10px 20px; /*espaciado entre elemntos de lista y elementos*/
 color: black;
 text-decoration: none;
-box-sizing: border-box;
 }
 .ind {
- font-weight: bold;
+ font-weight: bold;/*elemnto principal con negritas*/
 }
 ul.acorh li ul {
-max-height: 0;
-margin: 0;
-padding: 0;
-list-style: none;
+max-height: 0;/*oculta listas*/
 overflow: hidden;
 transition: .3s all ease-in;
+list-style-image: url("/img/Bullet1.png");
 }
-ul.acorh li li a {
-padding: 10px 10px 10px 40px;
-font-size: 16px;
-border: 0;
-box-sizing: border-box;
-}
+
 ul.acorc li li:last-child a {
 border-bottom: 0;
 }
 ul.acorh li:target ul {
-    max-height: 300px;
+    max-height: 300px;/*altura de lista*/
     transition: .3s all ease-in;
-    }
+}
+
+    
