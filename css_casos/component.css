@@ -13,9 +13,10 @@
 	border-width: 1px;
 	margin: 5px 25px;
 	transition: background-color .3s linear;
+	
+	
 
 }
-
 
 .rb-temp {
 	-webkit-transition: opacity 0.4s ease-in-out;
@@ -73,10 +74,6 @@
 	line-height: 0.6;
 	text-align: center;
 	text-indent: 0px;
-	
-
-
-	
 }
 
 .rb-week {
