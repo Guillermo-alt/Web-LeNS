@@ -1,28 +1,32 @@
 /*estilos para html - aparte de bootstrap*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
 
 header{
     background-color: white ;
     height: 130px;
-    padding: 25px 10px; 
+    padding: 30px 10px; 
 }
 header img{
     padding-left: 40px;
+    height: 65px;
 }
 
 nav{
     background-color: #33709d;
-    
 }
+
 button{
-    width:80px ;
+    width:80px;
 }
 .b1{
-    background-color: orange;
-    width: 200px;
+    background-color: #f47b2d;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 .b1:hover{
-    background-color: rgb(228, 149, 4);
-    width: 200px;
+    background-color: #e0620e;
 }
 .contenido1{
     text-align: justify;
@@ -32,12 +36,12 @@ section{
     height:700PX; 
 }
 .casos{/*estilo para casos de estudio*/
-    border: 2px solid #33709d;
+    border: 2px solid #1f6094;
     border-radius: 10px;
     height: 100px;
 }
 .casos:hover {
-    background: #33709d;
+    background: #1f6094;
   }
   /*ajuste de contenido home- - posicion y animacion*/
   .confeti{
@@ -53,12 +57,13 @@ section{
   }
 .logo_animado img{
     width: 40%;
-    margin: 25% 30%;
+    margin: 23% 29%;
 }
 
-.nav-item:hover{
-    background-color: #387fb3 ;
+.nav-item a:hover{
+    background-color: #1f6094 ;
     border-radius: 10px;
+
 }
 .navbar-toggler{
     margin-top: 5px;
@@ -67,6 +72,53 @@ section{
 .nav-item{
     padding-right: 20px;
 }
+.active{
+    background-color: #1f6094 ;
+    border-radius: 10px;
+}
+
+/*tipograpy*/
+.nav-item a{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+.Titilo-2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 58px;
+    color: black;
+}
+.Titilo-3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 42px;
+    color: black;
+}
+.cuerpo-1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.Titilo-4{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: black;
+
+}
+.Titilo-5{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 21px;
+    color: black;
+
+}
+
+.b1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.cuerpo-1 p{
+    padding-bottom: 5px;
+}
+
 
 
 
@@ -75,8 +127,10 @@ ul.acorh {
 margin: 10px auto;
 margin-left: 20px;
 width: 100%;
-font-size: 15px;
+font-family: 'Big Shoulders Display', sans-serif;
+font-size: 21px;
 list-style-image: url("/img/Bullet2.png");
+font-weight:500;
 }
 .sin_list{
     list-style-image: url("/img/Bullet1.png");
@@ -91,9 +145,7 @@ padding: 10px 10px 10px 20px; /*espaciado entre elemntos de lista y elementos*/
 color: black;
 text-decoration: none;
 }
-.ind {
- font-weight: bold;/*elemnto principal con negritas*/
-}
+
 ul.acorh li ul {
 max-height: 0;/*oculta listas*/
 overflow: hidden;
