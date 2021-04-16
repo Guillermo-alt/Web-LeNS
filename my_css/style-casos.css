@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
+
+.casos-nav{
+	transition: background-color .3s linear;
+    cursor: pointer;
+    text-decoration:none;
+	
+}
+.casos-nav:hover{
+    background-color: #33709d;
+}
+
+.vista1{
+    z-index: 1;
+
+}
+.flotante{
+    z-index: 2;
+    height: 100%;
+    background-color: lightcoral;
+    position: absolute;
+    
+    
+}

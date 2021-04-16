@@ -72,7 +72,7 @@ section{
 .nav-item{
     padding-right: 20px;
 }
-.active{
+.navbar .active{
     background-color: #1f6094 ;
     border-radius: 10px;
 }
@@ -118,9 +118,6 @@ section{
 .cuerpo-1 p{
     padding-bottom: 5px;
 }
-
-
-
 
 /*lista desplegable con hover- acordeon*/
 ul.acorh {
