@@ -11,7 +11,9 @@
 .casos-nav:hover{
     background-color: #33709d;
 }
-
+.header img{
+    max-width: 90%;   
+}
 .vista1{
     z-index: 1;
 
