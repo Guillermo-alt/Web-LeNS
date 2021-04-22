@@ -7,7 +7,7 @@ if (!$conn) {
  
 echo "Connected successfully";
 
-$nombre ="sad";
+$nombre ="nombre";
 $email = $_POST['email'];
 $asunto = $_POST['asunto'];
 
@@ -20,5 +20,5 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 ?>
 <script> alert("Mensaje Registrado");
-location.href ="/Web-LeNS/contacto.html";
+location.href ="/Mostacho/contacto.html";
 </script>

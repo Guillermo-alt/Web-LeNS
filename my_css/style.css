@@ -18,12 +18,15 @@ nav{
 
 button{
     width:80px;
+   
 }
 .b1{
     background-color: #f47b2d;
     width: 150px;
     margin-right: 10px;
     margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
 }
 .b1:hover{
     background-color: #e0620e;
@@ -35,14 +38,8 @@ section{
     overflow-y:scroll;
     height:700PX; 
 }
-.casos{/*estilo para casos de estudio*/
-    border: 2px solid #1f6094;
-    border-radius: 10px;
-    height: 100px;
-}
-.casos:hover {
-    background: #1f6094;
-  }
+
+
   /*ajuste de contenido home- - posicion y animacion*/
   .confeti{
       position: absolute;
@@ -57,7 +54,7 @@ section{
   }
 .logo_animado img{
     width: 40%;
-    margin: 23% 29%;
+    margin: 19% 29%;
 }
 
 .nav-item a:hover{
@@ -76,38 +73,54 @@ section{
     background-color: #1f6094 ;
     border-radius: 10px;
 }
-
 /*tipograpy*/
 .nav-item a{
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
 }
-.Titilo-2{
+.Titulo-2{
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 58px;
-    color: black;
+    font-size: 84px;
+    color: #1f6094;
 }
-.Titilo-3{
+.Titulo-3{
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 42px;
-    color: black;
+    font-size: 53px;
+    color: #1f6094;
+}
+.Titulo-3-1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 53px;
+    color: #333333;
+}
+
+.Titulo-ex{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: #333333;
+}
+.Titulo-deco{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color:white;
+    border-radius: 5px;
+    background-color:#f47b2d;
+    text-align: center;
 }
 .cuerpo-1{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
-    color: black;
+    color: #333333;
 }
-.Titilo-4{
+.Titulo-4{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
-    color: black;
-
+    color:#333333;
 }
-.Titilo-5{
+.Titulo-5{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 21px;
-    color: black;
-
+    color:#333333;
 }
 
 .b1{
@@ -130,11 +143,18 @@ list-style-image: url("/img/Bullet2.png");
 font-weight:500;
 }
 .sin_list{
+    
     list-style-image: url("/img/Bullet1.png");
 }
-.acorh li a:hover{
-    background-color: orange;
+
+.acorh li a{
     border-radius: 20px;
+    transition: background-color .3s linear;
+}
+
+.acorh li a:hover{
+    background-color: #f47b2d;
+    
 }
 ul.acorh li a {
 display: block;
@@ -143,6 +163,7 @@ color: black;
 text-decoration: none;
 }
 
+
 ul.acorh li ul {
 max-height: 0;/*oculta listas*/
 overflow: hidden;
@@ -150,11 +171,12 @@ transition: .3s all ease-in;
 list-style-image: url("/img/Bullet1.png");
 }
 
-ul.acorc li li:last-child a {
+ul.acorc li li:last-child a{
 border-bottom: 0;
 }
+
 ul.acorh li:target ul {
-    max-height: 300px;/*altura de lista*/
+    max-height: 500px;/*altura de lista*/
     transition: .3s all ease-in;
 }
 

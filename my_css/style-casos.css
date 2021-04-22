@@ -4,8 +4,9 @@
 .casos-nav{
 	transition: background-color .3s linear;
     cursor: pointer;
+    border-radius: 20px;
+    padding-top: 10px;
     text-decoration:none;
-	
 }
 .casos-nav:hover{
     background-color: #33709d;
@@ -15,11 +16,21 @@
     z-index: 1;
 
 }
+#close img{
+    width: 25px;
+    z-index: 3;
+    position: absolute;
+}
+#close img:hover{
+    width: 40px;
+ 
+}
 .flotante{
     z-index: 2;
+    text-align: justify;
     height: 100%;
-    background-color: lightcoral;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
     position: absolute;
-    
-    
 }
