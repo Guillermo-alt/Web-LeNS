@@ -22,14 +22,19 @@ button{
 }
 .b1{
     background-color: #f47b2d;
-    width: 150px;
+    width: 180px;
     margin-right: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
     color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.25pt;
 }
 .b1:hover{
     background-color: #e0620e;
+    color: white;
 }
 .contenido1{
     text-align: justify;
@@ -39,6 +44,17 @@ section{
     height:700PX; 
 }
 
+.contac .active{
+    background-color: #33709d;
+}
+.contac a:hover{
+    background-color: #33709d;
+    color: white;
+}
+
+.btn-cont{
+    background-color: #33709d;
+}
 
   /*ajuste de contenido home- - posicion y animacion*/
   .confeti{
@@ -78,27 +94,25 @@ section{
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
 }
-.Titulo-2{
+.Titulo-1{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 84px;
     color: #1f6094;
+    letter-spacing: -1.5pt;
 }
-.Titulo-3{
+.Titulo-2{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 53px;
     color: #1f6094;
+    letter-spacing: -.5pt;
 }
-.Titulo-3-1{
+.Titulo-2-1{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 53px;
     color: #333333;
+    letter-spacing: -.5pt;
 }
 
-.Titulo-ex{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 30px;
-    color: #333333;
-}
 .Titulo-deco{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
@@ -106,27 +120,25 @@ section{
     border-radius: 5px;
     background-color:#f47b2d;
     text-align: center;
+    letter-spacing: .25pt;
 }
 .cuerpo-1{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
     color: #333333;
+    letter-spacing: 0.5pt;
 }
 .Titulo-4{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
     color:#333333;
+    letter-spacing: .25pt;
 }
 .Titulo-5{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 21px;
     color:#333333;
-}
-
-.b1{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    letter-spacing: 0pt;
 }
 .cuerpo-1 p{
     padding-bottom: 5px;
@@ -137,6 +149,7 @@ ul.acorh {
 margin: 10px auto;
 margin-left: 20px;
 width: 100%;
+letter-spacing: .15pt;
 font-family: 'Big Shoulders Display', sans-serif;
 font-size: 21px;
 list-style-image: url("/img/Bullet2.png");

@@ -22,13 +22,12 @@
     position: absolute;
 }
 #close img:hover{
-    width: 40px;
+    width: 35px;
  
 }
 .flotante{
     z-index: 2;
     text-align: justify;
-    height: 100%;
     padding-left: 2%;
     padding-right: 2%;
     background-color: white;

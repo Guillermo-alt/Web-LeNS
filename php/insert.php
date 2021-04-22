@@ -7,11 +7,11 @@ if (!$conn) {
  
 echo "Connected successfully";
 
-$nombre ="nombre";
+$matric =$_POST['matricula'];
 $email = $_POST['email'];
 $asunto = $_POST['asunto'];
 
-$sql = "INSERT INTO comentarios (Nombre, Correo, Asunto) VALUES ('$nombre', '$email', '$asunto')";
+$sql = "INSERT INTO comentarios (Matricula,Email,Asunto) VALUES ('$matric', '$email', '$asunto')";
 if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
 } else {
@@ -20,5 +20,5 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 ?>
 <script> alert("Mensaje Registrado");
-location.href ="/Mostacho/contacto.html";
+location.href ="/contacto.html";
 </script>
