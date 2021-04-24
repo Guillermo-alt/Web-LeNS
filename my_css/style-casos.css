@@ -33,5 +33,6 @@
     padding-left: 2%;
     padding-right: 2%;
     background-color: white;
-    position: absolute;
+    position:absolute;
+    height: 300%;
 }

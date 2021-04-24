@@ -1,8 +1,8 @@
 <?php /*concta con base de datos local y no del host web - ya se cambio el del hosting*/
-$servername = "localhost";
+$servername = "sql185.main-hosting.eu";
 $database = "u689962032_Prueba";
 $username = "u689962032_Guillermo";
-$password = "HostingLens21";
+$password = "Kinomoto76";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
  

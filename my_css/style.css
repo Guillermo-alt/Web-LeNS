@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
 
+
+/******************Header*******************/
 header{
     background-color: white ;
     height: 130px;
@@ -21,7 +23,7 @@ header img{
         height: 50px;
     }
   }
-
+/*************************************/
 nav{
     background-color: #33709d;
 }
@@ -83,6 +85,24 @@ section{
     margin: 19% 29%;
 }
 
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: aun no se toma por hecho*/
+    .confeti{
+        margin-top: 20%;
+        position: absolute;
+        z-index: 0;
+    }
+    .logo_animado {  
+      animation:fadeInDown; /*referencia al keyframe*/
+      animation-duration: 2s; /*duracion*/
+    }
+  .logo_animado img{
+      width: 50%;
+      margin: 40% 25%;
+  }
+  }
+
+/***********************************************************/
 .nav-item a:hover{
     background-color: #1f6094 ;
     border-radius: 10px;
