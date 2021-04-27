@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="my_css/style.css">
     <link rel="stylesheet" href="my_css/style-casos.css">
 		<link rel="shortcut icon" href="img/favicon1.png"/>
+    <script src="/js/jquery-3.6.0.min.js" type="text/javascript"></script>   
     <title>Diseño</title>
 </head>
 <body class="container-fluid"> 
@@ -134,6 +135,17 @@
    </a>
   </div>
  </div>
+ 
+ <script>
+  //Cuando cargue la página completamente
+  $(document).ready(function(){
+    //Creamos un evento click para el enlace
+    $(".casos-nav").click(function(evento){
+      //Funcionalidad para que vaya arriba lentamente
+      $("html,body").animate({scrollTop:0}, "slow");
+    });
+  });
+</script>
        <!--bibliotecas js extrernas-->
       <script src="js/div-casos.js"></script>
       <!--popper para ventas y botones emergentes, bootstrap.js-->
