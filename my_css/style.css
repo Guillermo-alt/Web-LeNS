@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
 
 
+
 /******************Header*******************/
 header{
     background-color: white ;
@@ -28,6 +29,25 @@ nav{
     background-color: #33709d;
 }
 
+/*************************************/
+.dropdown-menu{
+    background-color: #33709d;
+    border-radius: 15px;    
+}
+
+
+.dropdown-item{
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+    
+   
+}
+.dropdown-item:hover{
+    color: white;
+}
+
+/*************************************/
 button{
     width:80px;
    
@@ -53,6 +73,7 @@ button{
 }
 section{
     overflow-y:scroll;
+     scroll-behavior: smooth;
     height:700PX; 
 }
 
@@ -91,6 +112,7 @@ section{
         margin-top: 20%;
         position: absolute;
         z-index: 0;
+        
     }
     .logo_animado {  
       animation:fadeInDown; /*referencia al keyframe*/
@@ -147,11 +169,24 @@ section{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 30px;
     color:white;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color:#f47b2d;
     text-align: center;
     letter-spacing: .25pt;
+    border-width: 0px;
 }
+
+.Titulo-deco:hover{
+   
+    background-color: #e0620e;
+}
+.accordion-collapse{
+   transition: 1.7s;
+   border-color: #f47b2d;
+   border-width: 2px;
+   border-radius: 8px;
+}
+
 .cuerpo-1{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
