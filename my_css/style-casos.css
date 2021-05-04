@@ -9,13 +9,17 @@
     text-decoration:none;
  
 }
-
+.text-can{
+    text-decoration:none;
+}
 .casos-nav:hover{
     background-color: #33709d;
+    border-radius: 20px;
     
 }
 .text-cans:hover .Titulo-4{
     color: white;
+    
 }
 .text-cans:hover .cuerpo-1{
     color: white;

@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap');
 
 
-
 /******************Header*******************/
 header{
     background-color: white ;
@@ -151,6 +150,7 @@ section{
     font-size: 84px;
     color: #1f6094;
     letter-spacing: -1.5pt;
+    
 }
 .Titulo-2{
     font-family: 'Big Shoulders Display', cursive;
@@ -165,21 +165,6 @@ section{
     letter-spacing: -.5pt;
 }
 
-.Titulo-deco{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 30px;
-    color:white;
-    border-radius: 8px;
-    background-color:#f47b2d;
-    text-align: center;
-    letter-spacing: .25pt;
-    border-width: 0px;
-}
-
-.Titulo-deco:hover{
-   
-    background-color: #e0620e;
-}
 .accordion-collapse{
    transition: 1.7s;
    border-color: #f47b2d;
@@ -258,6 +243,21 @@ border-bottom: 0;
 ul.acorh li:target ul {
     max-height: 500px;/*altura de lista*/
     transition: .3s all ease-in;
+}
+
+.Titulo-deco{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color:white;
+    border-radius: 8px;
+    background-color:#f47b2d;
+    text-align: center;
+    letter-spacing: .25pt;
+    border-width: 0px;
+}
+.Titulo-deco:hover{
+
+    background-color:#e95f03;
 }
 
     
