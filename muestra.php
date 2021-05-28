@@ -59,7 +59,7 @@ $result = $conn->query($sql);
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item ">
-              <a class="nav-link active" href="index.html">Comentarios</a>
+              <a class="nav-link active" href="muestra.php">Comentarios</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="php/session_logout.php">Salir</a>
@@ -89,8 +89,8 @@ $result = $conn->query($sql);
         </thead');
         echo('<tbody>');
         while($row = $result->fetch_assoc()) {
-          echo ('<tr>');
-          echo " <td>" . $row["id_c"]. "</td> <td>" .$row["Matricula"]. "</td> <td>" . $row["Email"]. "</td> <td>". $row["Asunto"]. "</td> <td> <button type='button' class='btn btn-danger'>Borrar</button> </td>";
+          $id=$row["id_c"];
+          echo " <td>" . $row["id_c"]. "</td> <td>" .$row["Matricula"]. "</td> <td>" . $row["Email"]. "</td> <td>". $row["Asunto"]. "</td> <td> <a class='btn btn-danger' href = 'php/delete.php?id=$id' >Borrar</a> </td>";
           echo ('</tr>');
         }
         echo('</tbody>');

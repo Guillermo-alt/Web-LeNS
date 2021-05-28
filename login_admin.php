@@ -20,6 +20,7 @@ if(isset($_SESSION['username'])){
     <link rel="shortcut icon" href="img/favicon1.png"/>
     <title>Investigación</title>
 </head>
+
 <body class="container-fluid body1"> 
   <div class="row">
     <header class="col-md-12"><a href="index.html"><img src="img/header.png" alt="logotivo Lens"></a></header>
