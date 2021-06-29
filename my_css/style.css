@@ -4,46 +4,22 @@
 
 
 /******************Header*******************/
-header{
-    background-color: white ;
-    height: 100px;
-    padding: 20px 5px; 
-}
-header img{
-    padding-left: 30px;
+
+/*************************************/
+.logonav{
     height: 60px;
 }
 
 @media only screen and (max-width: 700px) {
     /* For mobile phones: */
-    header{
-        height: 90px;
+    .logonav{
+        height: 40px;
     }
-    header img{
-        height: 50px;
-    }
+    
   }
 /*************************************/
 nav{
-    background-color: #33709d;
-}
-
-/*************************************/
-.dropdown-menu{
-    background-color: #33709d;
-    border-radius: 15px;    
-}
-
-
-.dropdown-item{
-    color: white;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 16px;
-    
-   
-}
-.dropdown-item:hover{
-    color: white;
+    background-color: white;
 }
 
 /*************************************/
@@ -90,6 +66,7 @@ section{
 
   /*ajuste de contenido home- - posicion y animacion*/
   .confeti{
+      margin-top: 2%;
       position: absolute;
       z-index: 0;
   }
@@ -102,20 +79,32 @@ section{
   } 
 .logo_animado img{
     width: 40%;
-    margin: 19% 29%;
+    margin: 18% 29%;
 }
-.des_anim{
-    z-index: 5;
-    padding-top: 40%;
-   position: absolute;
+.des_anim{/*texto descriptivo */
+    padding-top: 30%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:25px;
+    color:white;
+    letter-spacing: 1pt; 
+    text-align: center;
+    position: absolute;
     animation:fadeInRight; /*referencia al keyframe*/
     animation-duration: 2s;
 }
+.marco-des{
 
-@media only screen and (max-width: 700px) {
+    opacity: .7;
+    background-color: #838485;
+    border-radius: 15px;
+    padding: 25px 25px;
+
+    
+}
+
+@media only screen and (max-width: 800px) {
     /* For mobile phones: aun no se toma por hecho*/
     .confeti{
-        margin-top: 20%;
         position: absolute;
         z-index: 0;
         
@@ -126,19 +115,20 @@ section{
     }
   .logo_animado img{
       width: 50%;
-      margin: 40% 25%;
+      margin: 20% 25%;
   }
   .des_anim{
-    padding-top: 60%;
-
+    padding-top: 40%;
+    font-size:20px;
 }
-
   }
 
 /***********************************************************/
 .nav-item a:hover{
     background-color: #1f6094 ;
+    color: white;
     border-radius: 10px;
+
 }
 .navbar-toggler{
     margin-top: 5px;
@@ -146,16 +136,16 @@ section{
 }
 .nav-item{
     padding-right: 20px;
-
 }
 .navbar .active{
-    background-color: #1f6094 ;
+
     border-radius: 10px;
 }
 /*tipograpy*/
 .nav-item a{
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
+    color: #333333;
 }
 .Titulo-1{
     font-family: 'Big Shoulders Display', cursive;
@@ -218,7 +208,6 @@ list-style-image: url("/img/Bullet2.png");
 font-weight:500;
 }
 
-
 .sin_list{
     
     list-style-image: url("/img/Bullet1.png");
@@ -271,7 +260,7 @@ ul.acorh li:target ul {
 
     background-color:#e95f03;
 }
-/* Login   *********************************************************  */
+/* Login   start *********************************************************  */
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
@@ -315,7 +304,6 @@ border:0 !important;
 input:focus{
 outline: 0 0 0 0  !important;
 box-shadow: 0 0 0 0 !important;
-
 }
 
 .remember{
@@ -342,3 +330,7 @@ width: 100px;
 color: black;
 background-color: white;
 }
+
+/* Login  end *********************************************************  */
+
+

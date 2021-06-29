@@ -47,18 +47,15 @@ $result = $conn->query($sql);
 
 
   <div class="row">
-    <header class="col-md-12 "><a href="index.html"><img src="img/header.png" alt="logotivo Lens"></a></header>
-    <nav class="navbar navbar-expand-md navbar-dark nav-pill ">
+  <nav class="navbar navbar-expand-lg pt-4">
       <div class="container-fluid  ">
-        <a class="navbar-brand  " href="#"></a>
-        <!--sobra pero se necesita para espacio en icono nav-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html"><img class="logonav" src="img/header.png" alt="logotivo Lens"></a><!--sobra pero se necesita para espacio en icono nav-->
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
-          <!--icono de nav-->
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav ">
-            <li class="nav-item ">
+             <li class="nav-item ">
               <a class="nav-link active" href="muestra.php">Comentarios</a>
             </li>
             <li class="nav-item ">
@@ -69,6 +66,7 @@ $result = $conn->query($sql);
       </div>
     </nav>
   </div>
+  
   <div class="row">
     <div class="col-md-12 container px-5 pt-4 contenido1 cuerpo-1">
       <h2 class="text-center Titulo-1">Comentarios</h2>

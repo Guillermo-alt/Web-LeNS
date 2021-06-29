@@ -22,10 +22,8 @@ if(isset($_SESSION['username'])){
 </head>
 
 <body class="container-fluid body1"> 
-  <div class="row">
-    <header class="col-md-12"><a href="index.html"><img src="img/header.png" alt="logotivo Lens"></a></header>
-      </div>
       <div class="row">
+      <div class="head_log col-4 offset-4 mt-5"><img class="logonav" src="img/header.png" alt="logotivo Lens"></div>
         <div class="col-md-12 container px-5 pt-4 contenido1 cuerpo-1">
           <div class="container">
             <div class="d-flex justify-content-center h-100">
@@ -59,6 +57,7 @@ if(isset($_SESSION['username'])){
             </div>
           </div>
       </div>      
+      </div>
       <!--popper para ventas y botones emergentes, bootstrap.js-->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
